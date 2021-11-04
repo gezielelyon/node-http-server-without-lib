@@ -2,6 +2,7 @@ const http = require('http');
 const { URL } = require('url');
 
 const routes = require('./routes');
+const { bodyParser } = require('./helpers/bodyParser');
 
 const server = http.createServer(async (request, response) => {
   const parsedURL = new URL(`http://locahost:3333${request.url}`);
@@ -31,7 +32,11 @@ const server = http.createServer(async (request, response) => {
       return response.end(JSON.stringify(body));
     }
 
-    route.handler(request, response);
+    if (['POST', 'PUT', 'PATCH'].includes(request.method)) {
+      bodyParser(request, () => route.handler(request, response));
+    }else {
+      route.handler(request, response);
+    }
   }else {
     response.writeHead(404, { 'content-type': 'text/html' });
     return response.end(`Cannot ${request.method} ${parsedURL.pathname}`);
