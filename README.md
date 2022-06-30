@@ -4,7 +4,7 @@
 ![NodeJs](https://img.shields.io/badge/NodeJs-backend-red)
 
 # Node Http Server Without Lib
-This is a http server created without any lib or framework using only NodeJs
+This is a http server created without any lib or framework using only NodeJs.
 
 </br>
 
