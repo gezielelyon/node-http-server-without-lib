@@ -8,10 +8,10 @@
 
 <div align='center'>
 
-![GitHub issues](https://img.shields.io/github/issues/gezielelyon/node_http_server_without_lib)
-![GitHub forks](https://img.shields.io/github/forks/gezielelyon/node_http_server_without_lib)
-![GitHub starts](https://img.shields.io/github/stars/gezielelyon/node_http_server_without_lib)
-![GitHub license](https://img.shields.io/github/license/gezielelyon/node_http_server_without_lib)
+[![GitHub issues](https://img.shields.io/github/issues/gezielelyon/node-http-server-without-lib)](https://github.com/gezielelyon/node-http-server-without-lib/issues)
+[![GitHub forks](https://img.shields.io/github/forks/gezielelyon/node-http-server-without-lib)](https://github.com/gezielelyon/node-http-server-without-lib/network)
+[![GitHub stars](https://img.shields.io/github/stars/gezielelyon/node-http-server-without-lib)](https://github.com/gezielelyon/node-http-server-without-lib/stargazers)
+[![GitHub license](https://img.shields.io/github/license/gezielelyon/node-http-server-without-lib)](https://github.com/gezielelyon/node-http-server-without-lib)
 ![Javascript](https://img.shields.io/badge/Javascript-Language-yellow)
 ![NodeJS](https://img.shields.io/badge/NodeJS-Runtime-orange)
 
